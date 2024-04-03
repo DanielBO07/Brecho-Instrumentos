@@ -1,3 +1,6 @@
+*{
+	font-family: 'Arial';
+}
 body{
     border-top: 7vh transparent solid;
 }
@@ -14,6 +17,7 @@ nav a{
     text-decoration: none;
 }
 .login{
+    margin:0;
     color:#000000;
     border-right: 2px #000000 solid;
     padding-right: 3vh;
@@ -22,12 +26,14 @@ nav a{
     padding: 1vh;
     padding-right: 3vh;
     border-radius: 5px;
+    transition: .4s;
 }
 .login h1:hover{
     color:white;
     background-color: rgb(207, 145, 28);
 }
 .carrinho{
+    margin:auto;
     float:right;
 }
 .Ptitulo{
@@ -36,6 +42,7 @@ nav a{
 #classeP ul{
     list-style: none;
 }
-#classP ul{
+#classP ul li{
     display:inline;
+    
 }

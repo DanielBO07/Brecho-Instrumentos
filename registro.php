@@ -17,7 +17,7 @@
     <input type="email" name="email" class="boxreg" placeholder="Email">
     <input type="password" name="Password" class="boxreg" placeholder="Criar Senha">
     <input type="submit" value="Criar conta"> 
-    <a href="index.html">Página inicial</a>
+    <a href="index.php">Página inicial</a>
   </form>
 </body>
 </html>

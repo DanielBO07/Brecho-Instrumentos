@@ -8,7 +8,6 @@
 </head>
 <body>
     <?php include"cabecalho.inc";?>
-
     <div class="imagemI">
     </div>
     <h1 class="Ptitulo">Instrumentos</h1>

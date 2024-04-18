@@ -47,7 +47,8 @@ nav a{
 /*Fim do cabeçalho*/
 
 .imagemI{
-    background-image:linear-gradient(rgb(0, 0, 0),transparent), url(../imagem/wallpaper.avif);
+    background-image: url(../imagem/wallpaper.avif);
+    background-position-y: 90vh;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -55,7 +56,7 @@ nav a{
     justify-content: space-around;
     align-items: center;
 	width: 100%;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: row-reverse;
 }

@@ -5,7 +5,8 @@
 }
 body{
     border-top: 7vh transparent solid;
-    margin:12px;
+    margin:1%;
+    padding: 0.2%;
 }
 
 /*Cabeçalho*/
@@ -95,31 +96,31 @@ nav a{
 /*Círculos*/
 .dot1 {
     height: 200px;
-    width: 200px;
+    width: 16%; 
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
 }
 .dot2 {
     height: 200px;
-    margin-left: 10%;
-    width: 200px;
-    background-color: #bbb;
+    width: 16%;
+    margin-left: 11.6%;
+    background-image: url(../imagem/guitarra01.jpg);
     border-radius: 50%;
     display: inline-block;
 }
 .dot3 {
     height: 200px;
-    margin-left: 10%;
-    width: 200px;
+    width: 16%;
+    margin-left: 11.6%;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
 }
 .dot4    {
     height: 200px;
-    margin-left: 10%;
-    width: 200px;
+    margin-left: 11.6%;
+    width: 16%;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;

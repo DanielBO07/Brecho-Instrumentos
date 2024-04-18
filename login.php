@@ -15,7 +15,7 @@
     <input type="email" name="email" class="box" placeholder="Login">
     <input type="password" name="Password" class="box" placeholder="Senha">
     <input type="submit" value="LOGIN">
-    <a href="registro.html">Não tem cadastro?</a>
+    <a href="registro.php">Não tem cadastro?</a>
   </form>
 </body>
 </html>

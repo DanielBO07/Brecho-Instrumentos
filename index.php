@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php import"cabecalho.inc";?>
+    <?php include"cabecalho.inc";?>
     <div class="imagemI">
     </div>
     <h1 class="Ptitulo">Instrumentos</h1>

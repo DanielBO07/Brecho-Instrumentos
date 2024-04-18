@@ -1,5 +1,5 @@
 <nav>
-    <a href="login.html">
+    <a href="login.php">
         <div class="login">
             <h1> Login </h1>
         </div>

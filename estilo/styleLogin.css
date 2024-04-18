@@ -1,133 +1,101 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:300);
- *, *:before, *:after {
-	 box-sizing: border-box;
+
+body{
+    background: url('../imagem/viola.jpg') no-repeat center center/cover;;
 }
- body {
-  height: 100vh;
-	 background-image: url(../imagem/viola.jpg);
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: 205vh;
-   overflow-y: hidden!important;
-	 font-family: 'Poppins', sans-serif;
+/*Login Form*/
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
- a {
-	 text-decoration: none;
-	 color: #000000;
-	 transition: 0.5s ease;
+
+.form2{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
- a:hover {
-	 color: #179b77;
+.form h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin: 50px;
 }
- .form {
-	 background: rgb(100, 72, 19);
-	 padding: 40px;
-	 max-width: 600px;
-	 margin: 40px auto;
-	 border-radius: 15px;
-	 box-shadow: 0 4px 10px 4px rgba(19, 35, 47, .3);
+
+/* Boxes */
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
 }
- .tab-group {
-	 list-style: none;
-	 padding: 0;
-	 margin: 0 0 40px 0;
+.boxreg{
+    padding: 12px;
+    margin: 15px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
 }
- .tab-group:after {
-	 content: "";
-	 display: table;
-	 clear: both;
+
+#submit{
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
 }
- .tab-group li a {
-	 display: block;
-	 text-decoration: none;
-	 padding: 15px;
-	 background: rgba(160, 179, 176, .25);
-	 color: #000000;
-	 font-size: 20px;
-	 float: left;
-	 width: 48%;
-	 text-align: center;
-	 cursor: pointer;
-	 transition: 0.5s ease;
+#submit:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
 }
- .tab-group li a:hover {
-	 background: rgb(168, 114, 13);
-	 color: #fff;
+
+::placeholder{
+    color: white;
+    opacity: 0.7;
 }
- .tab-group .active a {
-	 background: rgb(0, 0, 0);
-	 color: #fff;
+form a {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
 }
- .tab-content > div:last-child {
-	 display: none;
-}
-.tab-group{
-  border-radius: 15px!important;
-  margin: 20px;
-}
- h1 {
-	 text-align: center;
-	 color: #fff;
-	 font-weight: 300;
-	 margin: 0 0 40px;
-}
- input, textarea {
-	 font-size: 17px;
-	 display: block;
-	 width: 100%;
-	 height: 100%;
-	 padding: 5px 10px;
-	 background: none;
-	 background-image: none;
-	 border: 1px solid #000000;
-	 color: #fff;
-	 border-radius: 6px;
-	 transition: border-color 0.25s ease, box-shadow 0.25s ease;
-}
- textarea {
-	 border: 2px solid #9c5901;
-	 resize: vertical;
-}
- .field-wrap {
-	 position: relative;
-	 margin-bottom: 40px;
-}
- .top-row:after {
-	 content: "";
-	 display: table;
-	 clear: both;
-}
- .top-row > div {
-	 float: left;
-	 width: 48%;
-	 margin-right: 4%;
-}
- .top-row > div:last-child {
-	 margin: 0;
-}
- .button {
-	 border: 0;
-	 outline: none;
-	 border-radius: 15px;
-	 padding: 15px 0;
-	 font-size: 20px;
-	 font-weight: 400;
-	 letter-spacing: 0.1em;
-	 background: rgb(0, 0, 0);
-   cursor: pointer;
-	 color: #fff;
-	 transition: all 0.5s ease;
-	 -webkit-appearance: none;
-}
- .button:hover, .button:focus {
-	 background: #025c61;
-}
- .button-block {
-	 display: block;
-	 width: 100%;
-}
- .forgot {
-	 margin-top: -20px;
-	 text-align: right;
-}
- 

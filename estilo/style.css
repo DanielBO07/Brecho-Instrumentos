@@ -90,3 +90,36 @@ nav a{
 .classeP ul:last-child li{
     padding-right: 12.5%;
 }
+
+/*Círculos*/
+.dot1 {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2 {
+    height: 200px;
+    margin-left: 10%;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3 {
+    height: 200px;
+    margin-left: 10%;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot4    {
+    height: 200px;
+    margin-left: 10%;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}

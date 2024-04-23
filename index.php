@@ -31,5 +31,7 @@
     <span class="dot2"></span>
     <span class="dot3"></span>
     <span class="dot4"></span>
+
+    <?php include"rodape.inc";?>
 </body>
 </html>

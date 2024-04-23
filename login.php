@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Galada&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+  <?php include"cabecalho.inc";?>
   <form action="" class="form">
     <h1>Login</h1>
     <input type="email" name="email" class="box" placeholder="Login">

@@ -13,7 +13,7 @@
             Início
         </h1>
     </a>
-    <a href="#" class="carrinho">
+    <a href="carrinho.php" class="carrinho">
         <img src="imagem/carrinho.png" height="50">
     </a>
 </nav>

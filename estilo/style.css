@@ -28,6 +28,10 @@ body{
     margin-left: 10%;
     font-size: 9vh;
 }
+.CTítulo{
+    color: grey;
+    margin-top: 2.5%;
+}
 .classeP{
     align-items: center;
     width: 50%;

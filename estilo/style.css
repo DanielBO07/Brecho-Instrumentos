@@ -97,7 +97,7 @@ nav a{
 .dot1 {
     height: 200px;
     width: 16%; 
-    background-color: #bbb;
+    background-image: url(../imagem/guitarra01.jpg);
     border-radius: 50%;
     display: inline-block;
 }
@@ -105,7 +105,10 @@ nav a{
     height: 200px;
     width: 16%;
     margin-left: 11.6%;
-    background-image: url(../imagem/guitarra01.jpg);
+    background-image: url(../imagem/viola03.jpg);
+    background-size: 60vh;
+    background-position-x: -7.8vh;
+    background-position-y: -40vh;
     border-radius: 50%;
     display: inline-block;
 }
@@ -113,7 +116,9 @@ nav a{
     height: 200px;
     width: 16%;
     margin-left: 11.6%;
-    background-color: #bbb;
+    background-image: url(../imagem/bateria.jpg);
+    background-size: 65vh;
+    background-position-x: -0vh;
     border-radius: 50%;
     display: inline-block;
 }
@@ -121,7 +126,9 @@ nav a{
     height: 200px;
     margin-left: 11.6%;
     width: 16%;
-    background-color: #bbb;
+    background-image: url(../imagem/ampl.jfif);
+    background-size: 50vh;
+    background-position-x: -10vh;
     border-radius: 50%;
     display: inline-block;
 }

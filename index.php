@@ -27,10 +27,12 @@
     <center><h1>Outros Produtos</h1></center>
 
     <!--Círculos-->
-    <span class="dot1"></span>
-    <span class="dot2"></span>
-    <span class="dot3"></span>
-    <span class="dot4"></span>
+    <div class="circulos">
+        <a href="#" class="dot1"></a>
+        <a href="#" class="dot2"></a>
+        <a href="#" class="dot3"></a>
+        <a href="#" class="dot4"></a>
+    </div>
 
     <?php include"rodape.inc";?>
 </body>

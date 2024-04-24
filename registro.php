@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Galada&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+<?php include"cabecalho.inc";?>
   <form action="" class="form2">
     <h1>Registro</h1>
     <input type="name" name="nome" class="boxreg" placeholder="Nome">
@@ -19,5 +20,6 @@
     <input type="submit" value="Criar conta"> 
     <a href="index.php">Página inicial</a>
   </form>
+  <?php include"rodape.inc";?>
 </body>
 </html>

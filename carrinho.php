@@ -10,5 +10,6 @@
     <?php include"cabecalho.inc";?>
 
     <h1 class="CTítulo"><center>Seu Carrinho</center></h1>
+    <?php include"rodape.inc";?>
 </body>
 </html>

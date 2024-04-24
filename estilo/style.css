@@ -12,7 +12,7 @@ body{
     background-image: url(../imagem/wallpaper.avif);
     background-position-y: 90vh;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -59,41 +59,44 @@ body{
 }
 
 /*Círculos*/
-.dot1 {
+.circulos{
+    display:inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.circulos a{
     height: 190px;
-    width: 16%; 
-    background-image: url(../imagem/guitarra01.jpg);
+    width: 190px;
+    border:1vh #393939 solid;
+    box-shadow: 0px 0px 20px black;
     border-radius: 50%;
-    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circulos a:first-child{
+    margin-left:0%;
+}
+.circulos a:last-child{
+    margin-right: 0%;
+}
+.dot1 {
+    background-image: url(../imagem/guitarra01.jpg);
 }
 .dot2 {
-    height: 190px;
-    width: 16%;
-    margin-left: 11.6%;
+    
     background-image: url(../imagem/viola03.jpg);
     background-size: 60vh;
     background-position-x: -7.8vh;
     background-position-y: -40vh;
-    border-radius: 50%;
-    display: inline-block;
 }
 .dot3 {
-    height: 190px;
-    width: 16%;
-    margin-left: 11.6%;
+    
     background-image: url(../imagem/bateria.jpg);
     background-size: 65vh;
     background-position-x: -0vh;
-    border-radius: 50%;
-    display: inline-block;
 }
 .dot4    {
-    height: 190px;
-    margin-left: 11.6%;
-    width: 16%;
     background-image: url(../imagem/ampl.jfif);
     background-size: 50vh;
     background-position-x: -10vh;
-    border-radius: 50%;
-    display: inline-block;
 }

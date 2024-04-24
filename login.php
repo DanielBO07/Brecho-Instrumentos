@@ -18,5 +18,6 @@
     <input type="submit" value="LOGIN">
     <a href="registro.php">Não tem cadastro?</a>
   </form>
+  <?php include"rodape.inc";?>
 </body>
 </html>

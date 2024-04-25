@@ -9,6 +9,7 @@ body{
 .CTítulo{
     color: grey;
     margin-top: 2.5%;
+    padding-bottom: 6vh;
 }
 .compras{
     width: 100%;
@@ -24,4 +25,11 @@ body{
     padding: 15px;
     align-items: center;
     margin-inline: auto;
+}
+.compras div h3{
+    color:rgb(80, 171, 80);
+}
+.total{
+    color:red;
+    padding-top: 50px;
 }

@@ -5,8 +5,6 @@
 }
 body{
     border-top: 7vh transparent solid;
-    margin:1%;
-    padding: 0.2%;
 }
 .imagemI{
     background-image: url(../imagem/wallpaper.avif);
@@ -27,10 +25,6 @@ body{
     color: rgb(207, 145, 28);
     margin-left: 10%;
     font-size: 9vh;
-}
-.CTítulo{
-    color: grey;
-    margin-top: 2.5%;
 }
 .classeP{
     align-items: center;
@@ -72,6 +66,10 @@ body{
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    transition:.2s;
+}
+.circulos a:hover{
+    box-shadow: 0px 0px 50px rgb(207, 145, 28);
 }
 .circulos a:first-child{
     margin-left:0%;

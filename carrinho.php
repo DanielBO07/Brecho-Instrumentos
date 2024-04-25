@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho</title>
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/styleCarrinho.css">
 </head>
 <body>
     <?php include"cabecalho.inc";?>
 
     <h1 class="CTítulo"><center>Seu Carrinho</center></h1>
-    <?php include"rodape.inc";?>
+    <div class="compras">
+    <?php 
+    $compras = array("Guitarra" => 1000,"Baixo" => 1000);
+    $i = 0;
+    $total = 0;
+    foreach($compras as $itens => $preco)
+    {
+        echo"<div class='compra$i'>
+        <h3>$itens</h3><br>
+        <h5>R$$preco</h5>
+        </div>";
+        $total = $total + $preco;
+        $i++;
+    }
+    ?>
+    </div>
 </body>
 </html>

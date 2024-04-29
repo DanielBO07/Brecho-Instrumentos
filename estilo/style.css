@@ -20,13 +20,8 @@ body{
     display: flex;
     flex-direction: row-reverse;
 }
-
-.Ptitulo{
-    color: rgb(207, 145, 28);
-    margin-left: 10%;
-    font-size: 9vh;
-}
 .classeP{
+    margin-top: 100px;
     align-items: center;
     width: 50%;
     margin-left: 31%;
@@ -54,6 +49,7 @@ body{
 
 /*Círculos*/
 .circulos{
+    margin-top: 100px;
     display:inline-flex;
     align-items: center;
     width: 100%;

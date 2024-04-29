@@ -10,7 +10,14 @@
     <?php include"cabecalho.inc";?>
     <div class="imagemI">
     </div>
-    <h1 class="Ptitulo">Instrumentos</h1>
+    <!--Círculos-->
+    <div class="circulos">
+        <a href="#" class="dot1"></a>
+        <a href="#" class="dot2"></a>
+        <a href="#" class="dot3"></a>
+        <a href="#" class="dot4"></a>
+    </div>
+    <br>
     <div class="classeP">
         <ul>
             <li><a href="#">Guitarras</a></li>
@@ -24,17 +31,6 @@
             <li><a href="#">outros</a></li>
         </ul>
     </div>
-    <center><h1>Outros Produtos</h1></center>
-
-    <!--Círculos-->
-    <div class="circulos">
-        <a href="#" class="dot1"></a>
-        <a href="#" class="dot2"></a>
-        <a href="#" class="dot3"></a>
-        <a href="#" class="dot4"></a>
-    </div>
-    <br>
-
     <?php include"rodape.inc";?>
 </body>
 </html>

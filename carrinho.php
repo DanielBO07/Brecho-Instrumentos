@@ -13,12 +13,12 @@
     <div class="compras">
         <br>
     <?php 
-    $compras = array("Guitarra" => 1000,"Baixo" => 1000, "Cabos" => 50);
+    $compras = array("Guitarra" => 1000,"Baixo" => 1000, "Cabos" => 50, "Prato" => 100);
     $i = 0;
     $total = 0;
     foreach($compras as $itens => $preco)
     {
-        echo"<div class='compra$i'>
+        echo"<div>
         <h3>$itens</h3><br>
         <h5>R$$preco</h5>
         </div>";
@@ -29,5 +29,6 @@
     echo"<center><h2 class='total'>Total: R$$total</h2></center>";
     
     ?>
+    <?php include"rodape.inc";?>
 </body>
 </html>

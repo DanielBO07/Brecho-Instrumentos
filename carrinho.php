@@ -11,6 +11,7 @@
 
     <h1 class="CTítulo"><center>Seu Carrinho</center></h1>
     <div class="compras">
+        <br>
     <?php 
     $compras = array("Guitarra" => 1000,"Baixo" => 1000, "Cabos" => 50);
     $i = 0;

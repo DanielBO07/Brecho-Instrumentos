@@ -13,7 +13,7 @@
     <div class="compras">
         <br>
     <?php 
-    $compras = array("Guitarra" => 1000,"Baixo" => 1000, "Cabos" => 50, "Prato" => 100);
+    $compras = array("Guitarra" => 1000,"Baixo" => 1000, "Cabos" => 50, "Prato" => 100, "Palhetas" => 20);
     $i = 0;
     $total = 0;
     foreach($compras as $itens => $preco)

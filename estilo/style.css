@@ -7,18 +7,12 @@ body{
     border-top: 7vh transparent solid;
 }
 .imagemI{
-    background-image: url(../imagem/wallpaper.avif);
-    background-position-y: 90vh;
-    background-size: cover;
+    background-image: url(../imagem/wallpaper.jpg);
     background-attachment:fixed;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    background-position-y: -30vh;
+    background-size: 100%;
 	width: 100%;
-    height: 70vh;
-    display: flex;
-    flex-direction: row-reverse;
+    height: 60vh;
 }
 .classeP{
     margin-top: 100px;
@@ -68,10 +62,10 @@ body{
     box-shadow: 0px 0px 50px rgb(207, 145, 28);
 }
 .circulos a:first-child{
-    margin-left:0%;
+    margin-left:30px;
 }
 .circulos a:last-child{
-    margin-right: 0%;
+    margin-right: 30px;
 }
 .dot1 {
     background-image: url(../imagem/guitarra01.jpg);

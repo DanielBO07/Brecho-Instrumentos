@@ -15,7 +15,7 @@
     <h1>Login</h1>
     <input type="email" name="email" class="box" placeholder="Login">
     <input type="password" name="Password" class="box" placeholder="Senha">
-    <input type="submit" value="LOGIN">
+    <input type="submit" class="botaoreg" value="LOGIN">
     <a href="registro.php">Não tem cadastro?</a>
   </form>
   <?php include"rodape.inc";?>

@@ -19,6 +19,19 @@ body{
     font-style: normal;
 }
 
+.botaoreg{
+    font-size: large;
+    border-radius: square;
+    border: none;
+    background-color: grey;
+    cursor: pointer;
+}
+.botaoreg:hover{
+    background-color: #04AA6D;
+    color: white;
+    transition: 0.4s;
+}
+
 .form2{
     display: flex;
     flex-direction: column;

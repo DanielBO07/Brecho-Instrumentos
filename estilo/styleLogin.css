@@ -111,3 +111,12 @@ form a {
     padding: 5px;
     border-radius: 5px;
 }
+.erro{ 
+    width: 380px;
+    margin-inline: auto;
+    margin-top: 20px;
+    padding: 1px;
+    padding-inline: 10px;
+    border-radius: 10px;
+    background-color: red;
+}

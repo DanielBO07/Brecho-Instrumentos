@@ -11,13 +11,31 @@
 </head>
 <body>
   <?php include"cabecalho.inc";?>
-  <form action="" class="form">
+  <form action="" method="POST" class="form">
     <h1>Login</h1>
     <input type="email" name="email" class="box" placeholder="Login">
-    <input type="password" name="Password" class="box" placeholder="Senha">
+    <input type="password" name="password" class="box" placeholder="Senha">
     <input type="submit" class="botaoreg" value="LOGIN">
     <a href="registro.php">Não tem cadastro?</a>
   </form>
+  <?php
+  if(!empty($_POST['email']) && !empty($_POST['password']))
+  {
+    $email=$_POST['email'];
+    $senha = $_POST['password'];
+    if($email == "Adimin@Adimin" && $senha == "adm")
+    {
+      require_once("indexadm.html");
+    }
+    else{
+      echo"<div class='erro'>
+        <h2>ERRO</h2>
+        <h4>Usuário ou senha incorretos</h4>
+      </div>";
+    }
+  }
+  
+  ?>
   <?php include"rodape.inc";?>
 </body>
 </html>

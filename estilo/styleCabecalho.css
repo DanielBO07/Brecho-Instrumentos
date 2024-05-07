@@ -18,6 +18,38 @@ nav{
 nav a{
     text-decoration: none;
 }
+.carrinho{
+    padding-right: 60px;
+    transition: .4s;
+}
+.carrinho img{
+    transition: .4s;
+}
+.carrinho:hover{
+    padding-right: 10px;
+    padding-left: 50px;
+    img{
+        rotate: -25deg;
+    }
+}
+.parede{
+    height: 50px;
+    width: 2px;
+    background-color: #000000;
+}
+.inicio h1{
+    color:rgb(207, 145, 28);
+    transition: .4s;
+    border-radius: 5px;
+}
+.inicio:hover{
+    h1{
+    margin-left: 15px;
+    background-color: rgb(207, 145, 28);
+    color:white;
+    padding-inline: 5px;
+    }
+}
 .login{
     margin:0;
     color:#000000;
@@ -32,23 +64,4 @@ nav a{
 .login:hover{
     color:white;
     background-color: rgb(207, 145, 28);
-}
-.inicio{
-    color:rgb(207, 145, 28);
-    transition: .4s;
-    border-radius: 5px;
-}
-.inicio:hover{
-    margin-left: 15px;
-    background-color: rgb(207, 145, 28);
-    color:white;
-    padding-inline: 5px;
-}
-.parede{
-    height: 50px;
-    width: 2px;
-    background-color: #000000;
-}
-.carrinho{
-    margin-right: 30px;
 }

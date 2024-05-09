@@ -25,7 +25,7 @@
     $senha = $_POST['password'];
     if($email == "Adimin@Adimin" && $senha == "adm")
     {
-      require_once("indexadm.html");
+      header("location: indexadm.html");
     }
     else{
       echo"<div class='erro'>
@@ -34,7 +34,6 @@
       </div>";
     }
   }
-  
   ?>
   <?php include"rodape.inc";?>
 </body>

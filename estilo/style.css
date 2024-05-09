@@ -88,3 +88,18 @@ body{
     background-size: 50vh;
     background-position-x: -10vh;
 }
+.produtos{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.produto{
+    width: 55vh;
+    height: 60vh;
+    margin-inline: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 3vh black;
+    padding: 20px;
+    display: flex;
+}

@@ -31,6 +31,26 @@
             <li><a href="#">outros</a></li>
         </ul>
     </div>
+    <div class="produtos">
+        <div class='produto'>
+            <img src="#">
+            <h1>
+                Exemplo
+            </h1>
+            <p>
+                Exemplo
+            </p>
+        </div>
+        <div class='produto'>
+            <img src="#">
+            <h1>
+                Exemplo
+            </h1>
+            <p>
+                Exemplo
+            </p>
+        </div>
+    </div> <br>
     <?php include"rodape.inc";?>
 </body>
 </html>

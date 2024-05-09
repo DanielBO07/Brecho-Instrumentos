@@ -33,7 +33,7 @@
     </div>
     <div class="produtos">
         <div class='produto'>
-            <img src="#">
+            <img src="">
             <h1>
                 Exemplo
             </h1>
@@ -42,7 +42,7 @@
             </p>
         </div>
         <div class='produto'>
-            <img src="#">
+            <img src="">
             <h1>
                 Exemplo
             </h1>

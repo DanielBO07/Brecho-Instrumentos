@@ -8,7 +8,7 @@ body{
 }
 .imagemI{
     background-image: url(../imagem/wallpaper.jpg);
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-position-y: -30vh;
     background-size: 100%;
 	width: 100%;
@@ -101,5 +101,4 @@ body{
     border-radius: 20px;
     box-shadow: 0 0 3vh black;
     padding: 20px;
-    display: flex;
 }

@@ -12,10 +12,10 @@
     </div>
     <!--Círculos-->
     <div class="circulos">
-        <a href="#" class="dot1"></a>
-        <a href="#" class="dot2"></a>
-        <a href="#" class="dot3"></a>
-        <a href="#" class="dot4"></a>
+        <a href="#" class="dot1"><p>50%</p></a>
+        <a href="#" class="dot2"><p>40%</p></a>
+        <a href="#" class="dot3"><p>45%</p></a>
+        <a href="#" class="dot4"><p>30%</p></a>
     </div>
     <br>
     <div class="classeP">
@@ -32,7 +32,16 @@
         </ul>
     </div>
     <div class="produtos">
-        <div class='produto'>
+        <a href="#" class='produto'>
+            <img src="imagem/guitarra01.jpg">
+            <h1>
+                Exemplo
+            </h1>
+            <p>
+                Exemplo
+            </p>
+        </a>
+        <a href="#" class='produto'>
             <img src="">
             <h1>
                 Exemplo
@@ -40,8 +49,8 @@
             <p>
                 Exemplo
             </p>
-        </div>
-        <div class='produto'>
+        </a>
+        <a href="#" class='produto'>
             <img src="">
             <h1>
                 Exemplo
@@ -49,8 +58,38 @@
             <p>
                 Exemplo
             </p>
-        </div>
-    </div> <br>
+        </a>
+    </div>
+    <div class="produtos">
+        <a href="#" class='produto'>
+            <img src="">
+            <h1>
+                Exemplo
+            </h1>
+            <p>
+                Exemplo
+            </p>
+        </a>
+        <a href="#" class='produto'>
+            <img src="">
+            <h1>
+                Exemplo
+            </h1>
+            <p>
+                Exemplo
+            </p>
+        </a>
+        <a href="#" class='produto'>
+            <img src="">
+            <h1>
+                Exemplo
+            </h1>
+            <p>
+                Exemplo
+            </p>
+        </a>
+    </div>
+     <br>
     <?php include"rodape.inc";?>
 </body>
 </html>

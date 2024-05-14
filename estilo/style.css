@@ -8,6 +8,7 @@ body{
 }
 .imagemI{
     background-image: url(../imagem/wallpaper.jpg);
+    background-size: cover;
     background-attachment: fixed;
     background-position-y: -30vh;
     background-size: 100%;
@@ -57,6 +58,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     transition:.2s;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 .circulos a:hover{
     box-shadow: 0px 0px 50px rgb(207, 145, 28);
@@ -88,6 +92,14 @@ body{
     background-size: 50vh;
     background-position-x: -10vh;
 }
+.circulos a p{
+    margin-inline: auto;
+    background-color: rgb(207, 145, 28);
+    font-size: 50px;
+    color: white;
+    rotate: -30deg;
+    border-radius: 10px;
+}
 .produtos{
     width: 100%;
     margin-top: 50px;
@@ -101,4 +113,14 @@ body{
     border-radius: 20px;
     box-shadow: 0 0 3vh black;
     padding: 20px;
+    color:#000000;
+    text-decoration: none;
+    transition: .4s;
+}
+.produto:hover{
+    box-shadow: 0 0 3vh rgb(207, 145, 28);
+}
+.produto img{
+    border-radius: 20px;
+    width: 100%;
 }

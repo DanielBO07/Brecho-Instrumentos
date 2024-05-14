@@ -23,7 +23,7 @@
   {
     $email=$_POST['email'];
     $senha = $_POST['password'];
-    if($email == "Adimin@Adimin" && $senha == "adm")
+    if($email == "Adm@Adm" && $senha == "adm")
     {
       header("location: indexadm.html");
     }

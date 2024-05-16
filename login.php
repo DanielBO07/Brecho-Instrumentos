@@ -17,8 +17,7 @@
     <input type="password" name="password" class="box" placeholder="Senha">
     <input type="submit" class="botaoreg" value="LOGIN">
     <a href="registro.php">Não tem cadastro?</a>
-  </form>
-  <?php
+    <?php
   if(!empty($_POST['email']) && !empty($_POST['password']))
   {
     $email=$_POST['email'];
@@ -29,12 +28,13 @@
     }
     else{
       echo"<div class='erro'>
-        <h2>ERRO</h2>
-        <h4>Usuário ou senha incorretos</h4>
+        <h3>ERRO</h2>
+        <br><h4>Usuário ou senha incorretos</h4>
       </div>";
     }
   }
   ?>
+  </form>
   <?php include"rodape.inc";?>
 </body>
 </html>

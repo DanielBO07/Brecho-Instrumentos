@@ -6,7 +6,7 @@ body{
 .form{
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 520px;
     width: 400px;
     border: 1px solid black;
     align-items: center;
@@ -113,11 +113,15 @@ form a {
 }
 .erro{ 
     font-family: arial;
-    width: 250px;
-    height: 80px;
+    width: 200px;
+    height: 50px;
     margin-top: 5px;
     margin-inline:auto;
     border-radius: 10px;
     color:white;
     background-color: red;
+    border: red 10px solid
+}
+.erro *{
+    margin:0;
 }

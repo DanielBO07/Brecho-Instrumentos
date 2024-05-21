@@ -24,7 +24,7 @@
     $senha = $_POST['password'];
     if($email == "Adm@Adm" && $senha == "adm")
     {
-      header("location: indexadm.html");
+      header("location: indexadm.php");
     }
     else{
       echo"<div class='erro'>

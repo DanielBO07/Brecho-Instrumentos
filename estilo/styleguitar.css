@@ -1,0 +1,24 @@
+.produtos{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.produto{
+    width: 55vh;
+    height: 60vh;
+    margin-inline: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 3vh black;
+    padding: 20px;
+    color:#000000;
+    text-decoration: none;
+    transition: .4s;
+}
+.produto:hover{
+    box-shadow: 0 0 3vh rgb(207, 145, 28);
+}
+.produto img{
+    border-radius: 20px;
+    width: 100%;
+}

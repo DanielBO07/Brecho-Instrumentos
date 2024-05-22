@@ -1,0 +1,6 @@
+body{
+    border-top: 7vh transparent solid;
+}
+.conteiner{
+    display: flex;
+}

@@ -1,6 +1,56 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     border-top: 7vh transparent solid;
 }
 .conteiner{
     display: flex;
+    align-items: center;
+}
+.conteiner img{
+    border-radius: 20px;
+    margin-left:20px;
+    width: 33.2%;
+}
+.infoP{
+    min-height: 70vh;
+    margin:20px;
+}
+.infoP h2{
+    color:rgb(207, 145, 28);
+}
+.compra{
+    width: 50vh;
+    margin-left: auto;
+    margin-right: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    min-height: 70vh;
+}
+.compra button{
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border:none;
+    transition:.2s;
+    width: 150px;
+    height: 40px;
+    box-shadow: 2px 2px 5px gray;
+}
+.compra button:active{
+    box-shadow: none;
+}
+.comprar{
+    background-color: rgb(207, 145, 28);
+}
+.comprar:hover{
+    background-color: rgb(165, 114, 19);
+}
+.botar{
+    background-color: rgb(234, 193, 118);
+}
+.botar:hover{
+    background-color: rgb(172, 135, 66);
 }

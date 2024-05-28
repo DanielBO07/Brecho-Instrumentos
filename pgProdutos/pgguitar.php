@@ -11,13 +11,19 @@
     <center> <h1 class="titulo"> Guitarra </h1> </center>
     <div class="conteiner">
         <img src="../imagem/guitarra01.jpg">
-        <div class="info">
-
+        <div class="infoP">
+            Essa Guitarra é uma Less Paul da guibson original, 
+            dois captadores duplos, feito para quem gosta de bastante distorção.
+            <h2>R$2000,00</h2>
         </div>
         <div class="compra">
+            <center>
             <h1>Compra</h1>
-            <button class="comprar">Comprar</button>
+            <h3>
+            <button class="comprar">Comprar</button><br>
             <button class="botar">Botar no Carrinho</button>
+            </h3>
+            </center>
         </div>
     </div>
     <?php include"rodape.inc";?>

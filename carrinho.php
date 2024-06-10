@@ -52,6 +52,7 @@
     ?>
     </table>
     <button class="btn">Limpar Carrinho</button>
+    <button class="btn">Comprar</button>
   </div>
     <?php include"rodape.inc";?>
 </body>

@@ -17,21 +17,19 @@
     <input type="password" name="password" class="box" placeholder="Senha">
     <input type="submit" class="botaoreg" value="LOGIN">
     <a href="registro.php">Não tem cadastro?</a>
-    <?php
-  if(!empty($_POST['email']) && !empty($_POST['password']))
-  {
-    $email=$_POST['email'];
-    $senha = $_POST['password'];
-    if($email == "Adm@Adm" && $senha == "adm")
-    {
-      header("location: indexadm.php");
-    }
-    else{
-      echo"<div class='erro'>
-        <h3>ERRO</h2>
+  <?php
+  require "BD/conectaBD.php";
+  $sqlcliente = "";
+  $sqladm="";
+  if(mysqli_query($conn, $sqlcliente)){
+    header('location:index.php');
+  }else if(mysqli_query($conn, $sqladm)){
+    header('location:registro.php');
+  }else{
+    echo"<div class='erro'>
+        <h3>ERRO</h3>
         <br><h4>Usuário ou senha incorretos</h4>
       </div>";
-    }
   }
   ?>
   </form>

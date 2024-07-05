@@ -11,21 +11,36 @@
 </head>
 <body>
 <?php include"cabecalho.inc";?>
-  <form action="" class="form2">
+  <form action="" class="form2" method="post">
     <h1>Registro</h1>
     <input type="name" name="nome" class="boxreg" placeholder="Nome">
     <input type="email" name="email" class="boxreg" placeholder="Email">
-    <input type="password" name="Password" class="boxreg" placeholder="Criar Senha">
+    <input type="password" name="senha" class="boxreg" placeholder="Criar Senha">
+    <input type="password" name="senha2" class="boxreg" placeholder="Confirme Senha">
     <input type="submit" value="Criar conta"> 
     <a href="index.php">Página inicial</a>
   </form>
   <?php
   require "BD/conectaBD.php";
-  $sql = "INSERT INTO `cliente`(`nome`, `email`, `senha`) VALUES ('[value-2]','[value-3]','[value-4]')";
-  if(mysqli_query($conn, $sql)){
-    echo"<h1>Certo</h1>";
-  }else{
-    echo'<h1>Errado</h1>';
+
+  if(!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['senha']) && !empty($_POST['senha2']))
+  {
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
+    $confirma = $_POST['senha2'];
+    
+    if($senha == $confirma)
+    {
+      $sql = "INSERT INTO `cliente`(`nome`, `email`, `senha`) VALUES ('$nome','$email','$senha')";
+      if(mysqli_query($conn, $sql)){
+        echo"<h1>Certo</h1>";
+      }else{
+        echo'<h1>Errado</h1>';
+      }
+    }else{
+      echo"<h1>Senhas Diferentes</h1>";
+    }
   }
   ?>
   <?php include"rodape.inc";?>

@@ -19,17 +19,35 @@
     <a href="registro.php">Não tem cadastro?</a>
   <?php
   require "BD/conectaBD.php";
-  $sqlcliente = "";
-  $sqladm="";
-  if(mysqli_query($conn, $sqlcliente)){
-    header('location:index.php');
-  }else if(mysqli_query($conn, $sqladm)){
-    header('location:registro.php');
-  }else{
-    echo"<div class='erro'>
+  
+  if(!empty($_POST['email']) && !empty($_POST['senha']))
+  {
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
+
+    $sql="SELECT * FROM `cliente` WHERE`email` = '$email' && `senha` = '$senha'";
+
+    $pesquisa = mysqli_query($conn, $sql);
+    if($pesquisa)
+    {
+      $resultado = mysqli_fetch_assoc($pesquisa);
+      header("location: index.php");
+    }else{
+
+      $sql="SELECT * FROM `adm` WHERE`email` = '$email' && `senha` = '$senha'";
+      $pesquisa = mysqli_query($conn, $sql);
+
+      if($pesquisa)
+      {
+        $resultado = mysqli_fetch_assoc($pesquisa);
+        header("location: indexadm.php");
+      }else{
+        echo"<div class='erro'> 
         <h3>ERRO</h3>
         <br><h4>Usuário ou senha incorretos</h4>
-      </div>";
+        </div>";
+      }
+    }
   }
   ?>
   </form>

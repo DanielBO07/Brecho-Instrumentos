@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include"cabecalho.inc";?>
+    <?php include "cabecalho.inc";?>
     <div class="imagemI">
     </div>
     <!--Círculos-->

@@ -125,3 +125,17 @@ form a {
 .erro *{
     margin:0;
 }
+.certo{ 
+    font-family: arial;
+    width: 200px;
+    height: auto;
+    margin-top: 5px;
+    margin-inline:auto;
+    border-radius: 10px;
+    color:white;
+    background-color: green;
+    border: green 10px solid;
+}
+.certo *{
+    margin:0;
+}

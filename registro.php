@@ -21,8 +21,6 @@
     <a href="index.php">Página inicial</a>
   </form>
   <?php
-  require "BD/conectaBD.php";
-
   if(!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['senha']) && !empty($_POST['senha2']))
   {
     $nome = $_POST['nome'];
@@ -34,12 +32,18 @@
     {
       $sql = "INSERT INTO `cliente`(`nome`, `email`, `senha`) VALUES ('$nome','$email','$senha')";
       if(mysqli_query($conn, $sql)){
-        echo"<h1>Certo</h1>";
+        echo"<div class='certo'> 
+        <h3>Conta criada</h3>
+        </div></h1>";
       }else{
-        echo'<h1>Errado</h1>';
+        echo"<div class='erro'> 
+        <h3>Erro no sistema</h3>
+        </div>";
       }
     }else{
-      echo"<h1>Senhas Diferentes</h1>";
+      echo"<div class='erro'> 
+      <h3>Senhas Diferentes</h3>
+      </div>";
     }
   }
   ?>

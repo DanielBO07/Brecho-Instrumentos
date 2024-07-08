@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guitarra</title>
-    <link rel="stylesheet" href="../estilo/styleProdutos.css">
+    <link rel="stylesheet" href="estilo/styleProdutos.css">
 </head>
 <body>
     <?php include"cabecalho.inc";?>

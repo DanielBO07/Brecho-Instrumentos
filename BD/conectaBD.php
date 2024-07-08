@@ -10,4 +10,6 @@ $conn = mysqli_connect($hostBD, $userBD, $senhaBD, $nomeBD);
 if($conn === false){
     die("ERROR: Não foi possível Conectar. " . mysqli_connect_error());
 }
+
+session_start();
 ?>

@@ -4,6 +4,7 @@
 </head>
 <body>
 <nav>
+    <?php require "BD/conectaBD.php"; ?>
     <a href="carrinho.php" class="carrinho">
         <img src="imagem/carrinho.png" height="50">
     </a>
@@ -14,6 +15,9 @@
         </h1>
     </a>
     <h1 class="nome">Sol Lamento</h1>
+    <?php 
+    
+    ?>
     <a href="login.php" class="login">
         <h1> Login </h1>
     </a>

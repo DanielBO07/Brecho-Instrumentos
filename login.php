@@ -11,14 +11,13 @@
 </head>
 <body>
   <?php include"cabecalho.inc";?>
-  <form action="" method="POST" class="form">
+  <form action="" method="post" class="form">
     <h1>Login</h1>
     <input type="email" name="email" class="box" placeholder="Login">
-    <input type="password" name="password" class="box" placeholder="Senha">
+    <input type="password" name="senha" class="box" placeholder="Senha">
     <input type="submit" class="botaoreg" value="LOGIN">
     <a href="registro.php">Não tem cadastro?</a>
   <?php
-  require "BD/conectaBD.php";
   
   if(!empty($_POST['email']) && !empty($_POST['senha']))
   {
@@ -27,19 +26,20 @@
 
     $sql="SELECT * FROM `cliente` WHERE`email` = '$email' && `senha` = '$senha'";
 
-    $pesquisa = mysqli_query($conn, $sql);
-    if($pesquisa)
+    $resultado = mysqli_fetch_assoc(mysqli_query($conn, $sql));
+ 
+    if(!empty($resultado['idCliente']))
     {
-      $resultado = mysqli_fetch_assoc($pesquisa);
+      $_SESSION['idCliente'] = $resultado['idCliente'];
       header("location: index.php");
     }else{
 
       $sql="SELECT * FROM `adm` WHERE`email` = '$email' && `senha` = '$senha'";
-      $pesquisa = mysqli_query($conn, $sql);
+      $resultado = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 
-      if($pesquisa)
+      if(!empty($resultado['idADM']))
       {
-        $resultado = mysqli_fetch_assoc($pesquisa);
+        $_SESSION['idADM'] = $resultado['idADM'];
         header("location: indexadm.php");
       }else{
         echo"<div class='erro'> 

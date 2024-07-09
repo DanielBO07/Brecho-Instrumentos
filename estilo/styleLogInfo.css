@@ -1,0 +1,42 @@
+*{
+	font-family: 'Arial';
+}
+body{
+    border-top: 9vh transparent solid;
+}
+table{
+    margin-inline: auto;
+    margin-top: 15vh;
+}
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+padding: 10px;
+}
+th:first-child,td:first-child {
+    color:rgb(5, 227, 109);
+}
+form{
+    display:flex;
+}
+input{
+    margin-inline: auto;
+    margin-top: 15vh;
+    cursor: pointer;
+    background-color: rgb(241, 77, 90);
+    border:none;
+    padding: 5px;
+    border-radius: 10px;
+    width: 25vh;
+    height: 7vh;
+    transition: .2s;
+}
+input[value="Sair da Conta"]{
+    font-size: 15px;
+}
+input:hover{
+    background-color: rgb(241, 104, 115);
+}
+input:active{
+    box-shadow: inset 2px 2px 5px gray;
+}

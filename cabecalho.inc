@@ -5,9 +5,18 @@
 <body>
 <nav>
     <?php require "BD/conectaBD.php"; ?>
-    <a href="carrinho.php" class="carrinho">
-        <img src="imagem/carrinho.png" height="50">
-    </a>
+    <?php
+    if(empty($_SESSION['idCliente']))
+    {
+        echo"<a href='login.php' class='carrinho'>
+        <img src='imagem/carrinho.png' height='50'>
+        </a>";
+    }else{
+        echo"<a href='carrinho.php' class='carrinho'>
+        <img src='imagem/carrinho.png' height='50'>
+        </a>";
+    }
+    ?>
     <span class="parede"></span>
     <a href="index.php" class="inicio">
         <h1>
@@ -16,10 +25,18 @@
     </a>
     <h1 class="nome">Sol Lamento</h1>
     <?php 
-    
-    ?>
-    <a href="login.php" class="login">
+    if (empty($_SESSION['idCliente']))
+    {
+        echo"<a href='login.php' class='login'>
         <h1> Login </h1>
-    </a>
+        </a>";
+    }else{
+        echo"<form action='' method='POST' class='log'><input type='submit' class='loginfo' name='loginfo' value=''></form>";
+    }
+    if(isset($_POST['loginfo']))
+    {
+        header("location: logInfo.php");
+    }
+    ?>
 </nav>
 </body>

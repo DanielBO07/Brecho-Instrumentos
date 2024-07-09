@@ -74,3 +74,24 @@ nav a{
     color:white;
     background-color: rgb(207, 145, 28);
 }
+.log{
+    margin-right: 3.5vh;
+    margin-left:auto;
+    float:right;
+    width: 8vh;
+    height: 8vh;
+}
+.loginfo{
+    margin:0;
+    border-radius: 50%;
+    transition: .4s;
+    width: 8vh;
+    height: 8vh;
+    border:none;
+    background-image: url(../imagem/login.jpg);
+    background-size: 100%;
+    cursor: pointer;
+}
+.loginfo:hover{
+    box-shadow: 0px 0px 5px rgb(207, 145, 28);
+}

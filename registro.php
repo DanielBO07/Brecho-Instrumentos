@@ -32,9 +32,7 @@
     {
       $sql = "INSERT INTO `cliente`(`nome`, `email`, `senha`) VALUES ('$nome','$email','$senha')";
       if(mysqli_query($conn, $sql)){
-        echo"<div class='certo'> 
-        <h3>Conta criada</h3>
-        </div></h1>";
+        header("location: login.php");
       }else{
         echo"<div class='erro'> 
         <h3>Erro no sistema</h3>

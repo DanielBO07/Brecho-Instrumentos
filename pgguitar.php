@@ -10,7 +10,7 @@
     <?php include"cabecalho.inc";?>
     <center> <h1 class="titulo"> Guitarra </h1> </center>
     <div class="conteiner">
-        <img src="../imagem/guitarra01.jpg">
+        <img src="imagem/guitarra01.jpg">
         <div class="infoP">
             Essa Guitarra é uma Less Paul da guibson original, 
             dois captadores duplos, feito para quem gosta de bastante distorção.

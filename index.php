@@ -12,7 +12,7 @@
     </div>
     <!--Círculos-->
     <div class="circulos">
-        <a href="pgProdutos/pgguitar.php" class="dot1"><p>50%</p></a>
+        <a href="pgguitar.php" class="dot1"><p>50%</p></a>
         <a href="#" class="dot2"><p>40%</p></a>
         <a href="#" class="dot3"><p>45%</p></a>
         <a href="#" class="dot4"><p>30%</p></a>
